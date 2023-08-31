@@ -1,5 +1,15 @@
 push an existing repository from the command line
 ========
+- git remote add <project nickname> <project URL>.git
 # git remote add origin https://github.com/guneskursad/git.git
+
+
+
+
 # git branch -M main
 # git push -u origin main
+
+
+- Now, connect the remote repository to the local directory by entering the following command
+# git pull origin main
+
