@@ -1,0 +1,18 @@
+branches
+=============
+- List all branches
+# git branch
+
+- Create a new branch
+# git branch kursad
+
+- Switch to an existing branch
+# git checkout kursad
+
+- Create a new branch and Switch to it
+# git checkout -b max
+
+- Delete a branch
+# git branch -d max
+
+

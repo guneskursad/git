@@ -1,0 +1,8 @@
+what is git
+=========
+- Git is a popular version control system.
+- It was created by "Linus Torvalds" in 2005
+- content tracker
+- distributed version control system
+
+

@@ -1,0 +1,13 @@
+git commit
+=============
+- commiting files
+# git commit -m "first commit"
+
+
+*** make commits atomic
+example:
+# git add story1.txt
+# git commit -m "story1 added"
+
+# git add story2.txt
+# git commit -m "story2 added"

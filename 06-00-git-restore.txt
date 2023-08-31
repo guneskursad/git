@@ -1,0 +1,16 @@
+git restore
+===========
+- remove a file from staging area
+# echo "line1" > story1.txt
+# git add story1.txt           
+# echo "line2" > story2.txt
+
+- story1.txt is in stagine area
+- story2.txt is in modified area
+
+- to unstage story1.txt
+# git restore --staged story1.txt
+
+
+- story1.txt is in modified area
+- story2.txt is in modified area

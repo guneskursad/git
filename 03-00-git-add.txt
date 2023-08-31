@@ -1,0 +1,12 @@
+git add
+=========
+- add files to stagin area
+# git add xxx.txt
+
+
+- add all files to staging area
+# git add --all
+# git add -A
+# git add .
+
+

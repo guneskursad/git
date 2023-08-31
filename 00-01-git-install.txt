@@ -1,0 +1,10 @@
+git installation
+========
+- browse to https://git-scm.com/downloads
+
+
+# git --version
+
+
+
+

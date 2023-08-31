@@ -1,0 +1,19 @@
+local and remote repositories
+==========
+
+1- local repository:
+ - is your own machine
+ - has direct access
+
+  1.1- working area
+    - git doesnt know what to do, just knows these files contain some updates
+
+  1.2- staging area
+    - contains new changes that will soon be committed
+
+  1.3- committed files
+
+2- remote repository:
+ - is usually a centralized server (optional)
+ - is useful when you want to backup of your data
+ - is useful when working with teams

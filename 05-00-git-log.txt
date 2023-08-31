@@ -1,0 +1,38 @@
+https://www.atlassian.com/git/tutorials/git-log
+
+
+git log 
+============
+- show logs about commits ..etc
+# git log 
+
+
+- displays only the commit ID and the first line of the commit message
+# git log --oneline
+
+
+
+- list the changed files as well using the --name-only
+# git log --name-only
+commit 069fd6ee1675a052ffbe26164e01378dfd8df7cb (HEAD -> master)
+Author: sarah <sarah@example.com>
+Date:   Wed Aug 30 18:58:51 2023 +0000
+
+    Added the lion and mouse story
+
+lion-and-mouse.tx
+
+
+
+
+
+
+
+
+
+- show differences with using "-p" option
+# git log --oneline -p
+069fd6e (HEAD -> master) Added the lion and mouse story
+diff --git a/lion-and-mouse.txt b/lion-and-mouse.txt
+new file mode 100644
+index 0000000..e69de29

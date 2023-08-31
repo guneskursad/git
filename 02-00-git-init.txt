@@ -1,0 +1,6 @@
+git init
+==========
+- enter the project folder and run below command
+# git init
+
+- it creates a hidden .git folder that stores changes
