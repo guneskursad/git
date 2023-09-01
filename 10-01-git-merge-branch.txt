@@ -1,0 +1,14 @@
+branch merge
+=============
+# git branch 
+  main
+* stb
+
+# git checkout <NAME>   ---> move main branch
+# git checkout main
+or
+# git switch main
+
+# git merge <NAME>      ---> merge branch stb to master 
+# git merge feature/stb
+

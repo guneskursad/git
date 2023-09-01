@@ -1,4 +1,4 @@
-branches
+branch
 =============
 - Branch is nothing but a pointer to a specific commit in GIT
 - By default the branch used is "master"
@@ -7,15 +7,17 @@ branches
 # git branch
 
 - Create a new branch
-# git branch kursad
+# git branch <NAME>
 
 - Switch to an existing branch
-# git checkout kursad
+# git checkout <NAME>
 
 - Create a new branch and Switch to it
-# git checkout -b max
+# git checkout -b <NAME>
+# git switch -c <NAME>
 
 - Delete a branch
-# git branch -d max
+# git branch -d <NAME>
+# git branch --delete <NAME>
 
 
