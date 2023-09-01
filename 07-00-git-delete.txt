@@ -1,0 +1,16 @@
+deleting
+===========
+- remove index.html from fileexplorer
+
+# git status
+   changes not staged for commt:
+   deleted: index.html
+
+
+# git commit -m "deleting index.html"       ---> permanently deleted 
+
+# git restore index.html                    ---> undo deleting index.html
+
+
+- remove file using rm command
+# git rm index.html                        ---> remove files and add to staged state

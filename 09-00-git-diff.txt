@@ -1,0 +1,19 @@
+differences
+===========
+# git diff
+diff --git a/00-04-git-ignore-files.txt b/00-04-git-ignore-files.txt
+index c4c2b56..0fc4d0e 100644
+--- a/00-04-git-ignore-files.txt
++++ b/00-04-git-ignore-files.txt
+@@ -1,6 +1,9 @@
+ git ignored files
+ ===========
+ - create a ".gitignore" file and place the file names that must be untracked
++  1- sensitive info
++  2- personal notes
++  3- system files
+ # echo "passwords.txt" >> .gitignore
+ 
+
+
+# 

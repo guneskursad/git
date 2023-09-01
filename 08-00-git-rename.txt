@@ -1,0 +1,6 @@
+renaming
+============
+# git mv index.html home.html
+
+
+# 
