@@ -1,6 +1,9 @@
 git ignored files
 ===========
 - create a ".gitignore" file and place the file names that must be untracked
+  1- sensitive info
+  2- personal notes
+  3- system files
 # echo "passwords.txt" >> .gitignore
 
 
