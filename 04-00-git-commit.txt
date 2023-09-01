@@ -11,3 +11,6 @@ example:
 
 # git add story2.txt
 # git commit -m "story2 added"
+
+
+# git commit --amend "story2 and story3 added"  --> changes appended to last commit
