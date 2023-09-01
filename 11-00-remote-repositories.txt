@@ -1,0 +1,19 @@
+Initialize Remote Repositories
+=========
+- most commonly used platforms are
+ 1- github
+ 2- gitlab
+ 3- bitbucket
+
+
+- connection string https://.../.../[name].git
+  https://github.com/guneskursad/git.git
+  https://gitlab.com/guneskursad/git.git
+  https://bitbucket.org/guneskursad/git.git
+
+- adding remote repository and give it a alias
+# git remote add <ALIAS> <connection string>
+# git remote add origin https://github.com/guneskursad/git.git
+
+
+

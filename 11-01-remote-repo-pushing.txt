@@ -1,0 +1,7 @@
+pushing to remote repo
+============
+# git push <ALIAS> <Current Branch>
+
+# git push origin main
+
+
