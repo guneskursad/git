@@ -1,5 +1,8 @@
 branches
 =============
+- Branch is nothing but a pointer to a specific commit in GIT
+- By default the branch used is "master"
+
 - List all branches
 # git branch
 
