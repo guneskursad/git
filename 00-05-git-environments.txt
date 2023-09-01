@@ -1,0 +1,34 @@
+git environments
+==========
+commit 653aef0e6f8d872ac7e1bacce9c64c7df22232f2 (HEAD -> main)
+Author: kursad gunes <guneskursad@gmail.com>                       ---> git config --global user.name <USERNAME>
+Date:   Fri Sep 1 09:17:38 2023 +0300
+    First Commit                                                   ---> git commit -m "<MESSAGE>"
+
+
+file states
+==========
+1- tracked
+  1.1- unmodified
+  1.2- modified
+    - add      --> add to staging
+    - restore  --> discard changes
+    # git restore <NAME>            ---> discard changes 
+    # git restore .
+    # git checkout .
+
+  1.3- staged
+    - commit
+    - restore
+    # git restore --staged <NAME>    ---> remove from staging area to working area
+    # git restore -s <NAME>
+
+2- untracked
+
+
+- viewing status
+# git status
+
+
+
+
