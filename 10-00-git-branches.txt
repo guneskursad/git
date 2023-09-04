@@ -3,8 +3,17 @@ branch
 - Branch is nothing but a pointer to a specific commit in GIT
 - By default the branch used is "master"
 
-- List all branches
+- List branches
 # git branch
+
+
+- List ALL branches
+# git branch -a
+* master
+  story/frogs-and-ox
+  remotes/origin/master          --> remote branches
+
+
 
 - Create a new branch
 # git branch <NAME>
