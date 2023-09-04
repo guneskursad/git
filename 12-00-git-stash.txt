@@ -1,0 +1,27 @@
+https://medium.com/@muratcankirdar/git-stash-komutu-basit-haliyle-be5abf78bbb6#:~:text=stash%20komutu%20de%C4%9Fi%C5%9Fiklikleri%20ge%C3%A7ici%20olarak,al%C4%B1p%20%C3%BCzerinde%20%C3%A7al%C4%B1%C5%9Fmaya%20devam%20edebilirsiniz.
+
+Stashing Code
+===========
+- stash komutu degisiklikleri geçici olarak raflara ayırır. Üzerinde çalıstıgınız degisiklikleri raflara ayırdıktan
+  sonra baska bir ise geçebilir ve daha sonra geldiginizde aynı degisiklikleri raftan alıp üzerinde çalısmaya devam
+  edebilirsiniz
+- Bir branchte henüz commitlemeye hazır olmayan degisiklikleriniz var ve bu degisiklikleri kaybetmeden (ve commitlemeden)
+  farklı bir branche geçmek istiyorsunuz, döndügünüzde ise degisiklikleri bıraktıgınız gibi bulmak istiyorsanız ‘stash’
+  aradıgınız komut
+
+# git stash
+
+- o anki stash listesini listelemek icin
+# git stash list
+
+- stash’e aldıgımız degisiklikleri geri getirmek icin kullanacagımız komut git stash pop
+# git stash pop
+
+
+# git stash save "stash mesajı"
+
+- listedeki 0 numaralı stash uygulamak icin
+# git stash apply 0
+
+- default state restore etmek icin
+# git restore .
