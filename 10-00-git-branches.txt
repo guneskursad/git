@@ -3,6 +3,29 @@ branch
 - Branch is nothing but a pointer to a specific commit in GIT
 - By default the branch used is "master"
 
+
+
+# cat .\.git\HEAD               --> show head
+ref: refs/heads/main
+
+# ls -l .git/refs/             ---> show branch
+total 0
+drwx------    1 razor    UsersGrp         0 Sep  4 15:01 heads
+drwx------    1 razor    UsersGrp         0 Sep  4 08:30 remotes
+drwx------    1 razor    UsersGrp         0 Sep  4 08:30 stb
+
+
+
+# cat .git/refs/heads/main
+40cbf679dd744d22e363f6d3e794b656106b4bcb
+
+
+
+
+
+
+
+
 - List branches
 # git branch
 

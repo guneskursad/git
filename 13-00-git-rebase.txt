@@ -1,0 +1,16 @@
+Rebase
+===========
+- Aslında ikiside aynı kapıya cıkan, amacı iki branch birlestirmek olan Merge ve Rebase’ics birbirinden ayıran nokta amaclarına nasıl ulastıkları.
+- "master" a bir branch i rebase ettiginizde , branch deki commitlerinizi tek tek alıp master ın sonuna ekleyecektir. 
+  Sonuc olarak rebase sonucunda tek bir history olusturur cünkü tamamlanan isi bir branch ten digerine aktarır. 
+  Bu sürecte istenmeyen history ortadan kalkar.
+- Merge yaptıgmızda is yeni bir “ Merge commit” yaratıp iki branchinde tüm history(yapılmıs tüm degisiklikleri) sini icerecektir.
+
+
+Rebase vs Merge
+===========
+- Eger tüm degisiklikleri görmek istiyorsanız merge yapmalısınız cünkü merge tüm degisiklikleri oldugu gibi korur.
+- Eger daha sade, anlasılabilir ve lineer bir commit history istiyor iseniz rebase sizin icin daha yaralı olacaktır.
+  Ancak bir ekip olarak public repository üzerinde calısıyor iseniz cok ama cok dikkatli olmalısınız. Rebase i merge e kıyasla revert
+  etmenin cok ama cok daha zor olacagımı da göz önünde bulundurmanız gerekir.
+- Eger branchinizi push yaptıysanız merge, yapmadıysanız rebase i kullanmanız dogru olacaktır.

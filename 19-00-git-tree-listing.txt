@@ -1,0 +1,12 @@
+ls-tree
+==========
+# git ls-tree HEAD        ---> list content of last commit
+
+# git ls-tree HEAD^1 
+
+
+# git ls-tree HEAD assets/   --> list files in assets
+
+# git ls-tree HEAD assets   ---> list files pattern matching
+
+

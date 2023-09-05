@@ -36,3 +36,18 @@ lion-and-mouse.tx
 diff --git a/lion-and-mouse.txt b/lion-and-mouse.txt
 new file mode 100644
 index 0000000..e69de29
+
+
+- show statistics about
+# git log --stat
+...
+    git commit added
+
+ 04-00-git-commit.txt | 5 ++++-                        ----> stats
+ 1 file changed, 4 insertions(+), 1 deletion(-)
+
+
+
+- show log graphs
+# git log --graph
+
