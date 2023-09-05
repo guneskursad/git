@@ -3,6 +3,15 @@ branch
 - Branch is nothing but a pointer to a specific commit in GIT
 - By default the branch used is "master"
 
+*** Cannot switch if changes in working directory conflict
+  1- Commit the changes to the current branch
+  2- Remove the changes, checkout the file again
+  3- Stash the changes
+
+  
+- Can switch if changes in working directory could be applied without conflict
+- Can switch if files are not being tracked
+
 
 
 # cat .\.git\HEAD               --> show head

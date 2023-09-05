@@ -13,7 +13,9 @@ index c4c2b56..0fc4d0e 100644
 +  2- personal notes
 +  3- system files
  # echo "passwords.txt" >> .gitignore
+
  
 
 
-# 
+# git diff main..stb              ---> diff main branch with stb branch
+
