@@ -16,4 +16,12 @@ Initialize Remote Repositories
 # git remote add origin https://github.com/guneskursad/git.git
 
 
+- remove remote repository
+# git remote remove <ALIAS>
+# git remote remove origin
+
+
+
+
+
 

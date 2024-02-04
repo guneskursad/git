@@ -1,0 +1,25 @@
+remote repo troubleshooting
+===========
+1- ensure using HTTPs url
+# git remote -v
+
+- if wrong url added
+# git remote remove <ALIAS>
+# git remote add <ALIAS>  <HTTPS URL>
+# git push <ALIAS> <BRANCH>
+
+
+2- ensure you run git config
+# git config --global credential.username "guneskursad"
+
+
+3- put your username in the Remote URL
+# git remote remove <ALIAS>
+# git remote add <ALIAS> https://guneskursad@github.com/guneskursad/git.git    # ---> username added infront of the Remote URL
+
+4- use a personel access token
+- enter github > settings > developer settings > personel access tokens >  fine-grained token
+- user this token, when password asked while pushing code
+
+5- set up SSH keys
+

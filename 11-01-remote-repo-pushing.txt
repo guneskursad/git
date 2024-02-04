@@ -1,5 +1,12 @@
 pushing to remote repo
 ============
+- configure git with our github username
+# git config --global credential.username "guneskursad"
+
+- verify
+# git config --get credential.username
+
+
 # git push <ALIAS> <Current Branch>
 
 # git push origin main
