@@ -1,0 +1,16 @@
+adding shortcuts to git
+============
+- s for status
+# git config --global alias.s "status"     ---> add s alias for status
+# git s 
+
+
+# git config --global alias.cm "commit -m"     ---> add cm alias for commit -m
+# git cm "test file added"
+
+# git config --global alias.co "checkout"       ---> add co alias for checkout
+# git co xxxxx-hash-xxxxx
+
+
+
+

@@ -5,6 +5,14 @@ Switch branches or restore working tree files
 - undo all changes in test.js in working area
 # git checkout -- test.js
 
+- back to previous versions
+# git checkout f4be4a921a9e37c0c6ce70d73199cfa5e47e7daa
+
+- restore to file/folder from previous versions
+# git checkout f4be4a921a9e37c0c6ce70d73199cfa5e47e7daa src         ---> restores src folder from f4be4a921a9e37c0c6ce70d73199cfa5e47e7daa commit
+# git checkout f4be4a921a9e37c0c6ce70d73199cfa5e47e7daa test.js     ---> restores test.js from f4be4a921a9e37c0c6ce70d73199cfa5e47e7daa commit
+
+
 
 - switch branches
 # git checkout -b stb
