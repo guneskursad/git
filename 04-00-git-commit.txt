@@ -14,3 +14,7 @@ example:
 
 
 # git commit --amend "story2 and story3 added"  --> changes appended to last commit
+
+# git add test.js
+# git commit -m "first commit" --ammend 
+
