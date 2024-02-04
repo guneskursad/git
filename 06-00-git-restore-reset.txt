@@ -14,3 +14,15 @@ git restore
 
 - story1.txt is in modified area
 - story2.txt is in modified area
+
+
+git reset
+===========
+- remove a file from staging area
+# echo "line1" > story1.txt
+# git add story1.txt           
+# echo "line2" > story2.txt
+
+
+- to unstage story1.txt
+# git reset story1.txt

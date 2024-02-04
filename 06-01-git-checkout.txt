@@ -1,0 +1,12 @@
+git checkout
+===========
+Switch branches or restore working tree files
+
+- undo all changes in test.js in working area
+# git checkout -- test.js
+
+
+- switch branches
+# git checkout -b stb
+
+

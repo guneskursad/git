@@ -1,6 +1,6 @@
 git add
 =========
-- add files to stagin area
+- add files to staging area
 # git add xxx.txt
 
 
