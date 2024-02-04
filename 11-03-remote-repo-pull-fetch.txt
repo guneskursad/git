@@ -1,0 +1,16 @@
+git pull remote repository
+===============
+- git pull <RepoUrl> <FolderName>
+or
+- git pull <RepoUrl> <FolderName>
+# git pull https://github.com/guneskursad/git.git git-folder
+
+
+**** remote tracking branches don't update automatically
+# git fetch
+# git pull origin main
+
+
+- add default upstream to get pull
+# get pull origin main --set-upstream
+# get pull

@@ -25,6 +25,11 @@ lion-and-mouse.tx
 
 
 
+# git log --oneline 
+2492227 (HEAD -> main) remote repo features updated/added              ---> local repo points
+64125d8 (origin/main) shortcuts added                                  ---> remote repo points
+464940f git reset and checkout added
+
 
 
 

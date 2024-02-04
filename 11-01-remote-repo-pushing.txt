@@ -11,4 +11,12 @@ pushing to remote repo
 
 # git push origin main
 
+# git push origin main --set-upstream        ---> set default upstream
+# git push                                   ---> now we can use only git push
+
+
+
+- force push
+# git push origin main -f                    ---> overwrite remote repo and push the changes
+
 
