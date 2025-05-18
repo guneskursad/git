@@ -1,7 +1,7 @@
 git config
 ============
 # git config --global user.name "kursad gunes"
-# git config --global user.email "guneskursad@gmail.com"
+# git config --global user.email "guneskursad@xxxx.com"
 
 
 - unset values
